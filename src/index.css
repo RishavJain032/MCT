@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,349 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+
+
+.Maincontainer
+{
+  /* border : 2px solid red; */
+
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+   background-color: #1D1D1D;
+   margin-top: -110px;
+   /* margin-left: 275px; */
+  
+   
+  
 }
+
+.Maincontainernavcontainer
+{
+  /* border : 2px solid red; */
+
+width: 100%;
+height: 70px;
+
+background-color: #101010;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+
+}
+
+.Maincontainernabbarleft
+{
+  /* border : 2px solid red; */
+
+    width: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 1rem;
+   
+
+   
+
+}
+
+.arrowleft
+{
+  /* border : 2px solid red; */
+
+    width: 35%;
+    height: 5%;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+.arrowright
+{
+  /* border : 2px solid red; */
+
+    width: 35%;
+    height: 5%;
+    background-color: black;
+    border-radius: 50%;
+    
+}
+.MAincontainerfoc
+{
+  /* border : 2px solid red; */
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.card-heading-div
+{
+  /* border : 2px solid red; */
+
+
+    width: 95%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+.card-heading-div .span2
+{
+
+  /* border : 2px solid red; */
+
+    font-size: medium;
+}
+
+.card-div
+{
+  /* border : 2px solid red; */
+
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.card-div :hover
+{
+  /* border : 2px solid red; */
+    background-color: #383838;
+}
+.card
+{
+  /* border : 2px solid red; */
+
+  width: 180px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #171717;
+  color: white;
+  border-radius: 5px;
+
+
+}
+.card img
+{
+  /* border : 2px solid red; */
+
+  width: 150px;
+  height: 160px;
+  border-radius: 5px;
+  margin-top: 10px;
+
+
+}
+.card span
+{
+  /* border : 2px solid red; */
+
+    color: #A3A3A3;
+}
+
+.home-container-spotify-playlist-div
+{
+  /* border : 2px solid red; */
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.home-container-sound-of-india-div
+{
+  /* border : 2px solid red; */
+
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.home-container-footer-div
+{
+  /* border : 2px solid red; */
+
+   width: 95%;
+   height: 400px;
+   
+   display: flex;
+   flex-direction: column;
+   margin-left: 3%;
+
+}
+
+.footer-top
+{
+  /* border : 2px solid red; */
+
+  width: 100%;
+  height: 50%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+ 
+
+
+}
+
+.footer-top-left
+{
+  /* border : 2px solid red; */
+  
+  width: 20%;
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+.footer-top-mid1
+{  
+  /* border : 2px solid red; */
+
+  width: 20%;
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.footer-top-mid2
+{  
+  /* border : 2px solid red; */
+
+  width: 20%;
+    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.footer-top-right
+{ 
+  /* border : 2px solid red; */
+
+   width: 40%;
+    height: 100%;
+  display: flex;
+  
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10%;
+
+}
+.footer-bottom
+{
+  /* border : 2px solid red; */
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.footer-bottom div
+{
+  /* border : 2px solid red; */
+
+    display: flex;
+    align-items: flex-start;
+    color: white;
+}
+
+.searchinput{
+
+  width : 30vw;
+  height: 30px;
+  border-radius: 20px;
+  border : none;
+
+}
+.Search{
+  
+  background-color: white;
+  border: none;
+  margin-left: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 10px;
+
+}
+.clear{
+
+  background-color: white;
+  border: none;
+  margin-left: 10px;
+  font-weight: 800;
+  cursor: pointer;
+  border-radius: 10px;
+}
+button:hover{
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+}
+.log{
+  /* style={{backgroundColor:"white",
+    cursor:"pointer",border:0,width:"50%",borderRadius:"20px",fontWeight:"bold",fontSize:"0.9rem"}} */
+
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 800;
+}
+.sign{
+ 
+
+    color: gray;
+    cursor: pointer;
+    background-color: #1a1a1a;
+    border: none;
+    font-size: 800;
+    font-weight: 800;
+}
+
+.navdiv{
+  
+  background-color: #1a1a1a;
+  margin-left : 0%;
+  height: 5vh;
+  width: 78vw;
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  padding : 15px;
+
+}
+
+/*  */
