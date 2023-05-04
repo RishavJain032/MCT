@@ -5,7 +5,7 @@ import {Route,Routes} from 'react-router-dom'
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Search from './Components/Search';
-import Fetch from './Components/Fetch';
+// import Fetch from './Components/Fetch';
 
 
 
@@ -20,7 +20,7 @@ function App() {
         <Route path='/home' element={<Home/>}/>
         <Route path='/search' element={<Search/>}/>
         <Route path='/library' element={<Home/>}/>
-        <Route path='/details' element={<Fetch/>}/>
+        <Route path='/details' element={<Home/>}/>
       </Routes></div>
       </div>
     </div>

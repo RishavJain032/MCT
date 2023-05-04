@@ -2,7 +2,7 @@
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs"
 import { AiOutlineInstagram,AiFillTwitterCircle } from "react-icons/ai"
 import { FaFacebook } from "react-icons/fa"
-import {useEffect} from "react";
+
 
 function Home() {
 
